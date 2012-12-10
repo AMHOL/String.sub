@@ -1,3 +1,8 @@
+/**
+ * Add's sub method to JavaScript String prototype for variable replacement'
+ * @author Andy Holland <andy@kudoswebsolutions.com>
+ * @version 1.0
+ */
 String.prototype.sub = function() {
   if ( arguments.length == 0 ) return this;
   var sub = arguments.length > 1 ? Array.prototype.slice.call(arguments) : arguments[0];
