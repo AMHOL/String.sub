@@ -15,4 +15,5 @@ String.prototype.sub = function() {
       return typeof sub[property] != 'undefined' ? sub[property] : match;
     });
   }
+  return this;
 };
