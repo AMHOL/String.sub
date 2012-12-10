@@ -12,7 +12,7 @@ i.e,
 <code>"{hello} {world}".sub({ hello: 'Hello,', world: 'world!'}); // Hello, world!</code>
 
 What have you tested in?
-
+----------
 jQuery: 1.8.3
 
 Chrome: 23.0.1271.64
