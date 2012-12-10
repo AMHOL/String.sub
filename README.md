@@ -13,7 +13,6 @@ i.e,
 
 What have you tested in?
 ----------
-jQuery: 1.8.3
 
 Chrome: 23.0.1271.64
 
