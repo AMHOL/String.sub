@@ -2,8 +2,6 @@ String.sub
 ==========
 
 Add's a "sub" method into the JavaScript String prototype for variable substitution in strings
------------------
-Allows for variable substitution in javascript strings
 
 i.e,
 
