@@ -6,7 +6,7 @@
 String.prototype.sub = function() {
   if ( arguments.length == 0 ) return this;
   var sub = arguments.length > 1 ? Array.prototype.slice.call(arguments) : arguments[0];
-  if ( Object.prototype.toString.call(sub) === '[object String]' ) sub = [sub];
+  if ( Object.prototype.toString.call(sub) !== '[object Array]' && Object.prototype.toString.call(sub) !== '[object Object]' ) sub = [sub];
   if ( Object.prototype.toString.call(sub) === '[object Array]' ) {
     return this.replace(/%(\d+)/g, function(match, number) {
       return typeof sub[number-1] != 'undefined' ? sub[number-1] : match;
